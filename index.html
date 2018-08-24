@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <!-- css -->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css">
+       <link rel="stylesheet" href="style.css">
+
+   <!-- jquery and semantic javascript library -->
+       <script
+         src="https://code.jquery.com/jquery-3.1.1.min.js"
+         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+         crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.js"></script>
+
+  </head>
+  <body>
+
+    <div class="ui sidebar inverted vertical menu">
+      <a class="item"></a>
+      <a class="item"></a>
+    </div>
+
+    <h1>Notes</h1>
+
+    <div class="ui form">
+      <form class="actualform" method="post">
+        <input type="submit" name="submit" value="+"><br>
+        <div class="field">
+          <label>New Note</label>
+          <input id="titleInput" type="text" name="title" value=""><br>
+        </div>
+        <div class="field">
+          <label>Body</label>
+          <textarea id="textarea"></textarea>
+        </div>
+      </form>
+
+    <div class="ui cards">
+      <div class="content">
+        <div class="cards">
+          <ul id="card">
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </body>
+      <script type="text/javascript" src="src/index.js"></script>
+</html>

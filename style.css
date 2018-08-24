@@ -1,0 +1,50 @@
+body {
+  font-family: "Gotham Book";
+  margin: 30px;
+}
+
+h1 {
+  /* background-color: #91E2FF; */
+  font-family: "Gotham";
+  font-size: 50px;
+  margin: 30px;
+}
+
+.ui.cards {
+  margin: 30px,
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+li.ui.card {
+  margin: 20px;
+  background-color: #FFFEE8;
+}
+
+.actualform input{
+  background-color: #FFFEB0;
+}
+
+button {
+  margin: 20px;
+  font-family: "Gotham Book";
+}
+
+.actualform {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+input {
+  margin-bottom: 20px;
+  background-color: #FFFEB0;
+}
